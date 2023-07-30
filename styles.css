@@ -1,0 +1,29 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightcyan;
+}
+h1 { 
+    font-size: 60px;
+    font-weight: bold;
+    color: darkblue;
+}
+.link {
+    font-size: 24px;
+    text-decoration: none;
+    color: darkorchid;
+}
+.img {
+    width: 300px;
+    height: auto;
+}
+h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+ul {
+    list-style: none;
+}
+ul,
+ol {
+    text-align: left;
+}
