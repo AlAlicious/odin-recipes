@@ -1,16 +1,17 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    background-color: lightcyan;
+    background-color: #1d1c1c;
+    color: #fff;
+    text-align: center;
 }
 h1 { 
     font-size: 60px;
     font-weight: bold;
-    color: darkblue;
 }
 .link {
     font-size: 24px;
     text-decoration: none;
-    color: darkorchid;
+    color: gold;
 }
 .img {
     width: 300px;
@@ -20,10 +21,37 @@ h3 {
     font-size: 20px;
     font-style: italic;
 }
+h3 p {
+    width: 600px;
+    display: inline-block;
+}
+ol li p {
+    width: 600px;
+    display: inline-block;
+    text-size-adjust: 600px;
+}
 ul {
     list-style: none;
+    margin-bottom: 40px;
 }
 ul,
 ol {
-    text-align: left;
+    font-size: 18px;
+}
+button {
+    background-color: #1d1c1c;
+    width: 160px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: 1px solid #fff
+}
+ol {
+    list-style-position: inside;
+}
+span {
+    /* width: 600px; */
+    text-size-adjust: 600px;
+    /* display: inline-block; */
 }
